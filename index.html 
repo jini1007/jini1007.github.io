@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>내 포트폴리오</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 50px; background: #f0f4ff; }
+    h1 { color: #3a86ff; }
+    p { color: #555; font-size: 1.1rem; }
+  </style>
+</head>
+<body>
+  <h1>안녕하세요! 👋</h1>
+  <p>저는 jini1007입니다.</p>
+  <p>GitHub Pages로 배포한 첫 번째 페이지예요 🎉</p>
+</body>
+</html>
+git add .
+git commit -m "첫 포트폴리오 페이지 추가"
+git push
