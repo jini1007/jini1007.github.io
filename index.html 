@@ -2,19 +2,85 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>내 포트폴리오</title>
+  <title>jini1007 포트폴리오</title>
   <style>
-    body { font-family: sans-serif; text-align: center; padding: 50px; background: #f0f4ff; }
-    h1 { color: #3a86ff; }
-    p { color: #555; font-size: 1.1rem; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      text-align: center;
+      padding: 60px 80px;
+    }
+
+    .avatar {
+      font-size: 3rem;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      color: #888;
+      font-size: 0.95rem;
+      margin-bottom: 36px;
+    }
+
+    .divider {
+      width: 40px;
+      height: 2px;
+      background: #1a1a1a;
+      margin: 0 auto 36px;
+    }
+
+    .tags {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .tag {
+      border: 1px solid #ddd;
+      color: #555;
+      padding: 5px 14px;
+      border-radius: 4px;
+      font-size: 0.82rem;
+    }
+
+    .footer {
+      color: #ccc;
+      font-size: 0.78rem;
+    }
   </style>
 </head>
 <body>
-  <h1>안녕하세요! 👋</h1>
-  <p>저는 jini1007입니다.</p>
-  <p>GitHub Pages로 배포한 첫 번째 페이지예요 🎉</p>
+  <div class="card">
+    <div class="avatar">🙂</div>
+    <h1>jini1007</h1>
+    <p class="subtitle">첫 번째 포트폴리오 페이지</p>
+    <div class="divider"></div>
+    <div class="tags">
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">Git</span>
+      <span class="tag">GitHub</span>
+    </div>
+    <p class="footer">© 2026 jini1007</p>
+  </div>
 </body>
 </html>
-git add .
-git commit -m "첫 포트폴리오 페이지 추가"
-git push
